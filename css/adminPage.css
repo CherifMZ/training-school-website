@@ -1,0 +1,165 @@
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #850909;
+  }
+  
+  ul.topnav li {
+    float: left;
+  }
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.icon) {
+    background-color: #111;
+  }
+  
+  ul.topnav li.right {
+    float: right;
+  }
+  
+  ul.topnav li.middle {
+    text-align: right;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  ul.topnav li.middle a:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .topnav img {
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  
+  @media screen and (max-width: 900px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  
+  body {
+      margin: 5%;
+      padding: 5%;
+    }
+  
+  .cadre {
+    width: 324px;
+    height: 410px;
+  }
+  
+  .cadre a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+  }
+  
+  .cadrage {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .cadrage > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 2px;
+  }
+  
+  .cadrage img {
+    width: 320px;
+    height: 290px;
+  }
+  
+  .cadrage p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+  }
+  
+  
+  @media (min-width: 400px) {
+    .cadrage { 
+      grid-template-columns: repeat(1, 1fr); 
+      padding: 20px 1px;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .cadrage { 
+      grid-template-columns: repeat(3, 1fr); 
+      padding: 20px 10px;
+    }
+  }
+  
+  @media (min-width: 950px) {
+    .cadrage { 
+      grid-template-columns: repeat(4, 1fr); 
+      padding: 20px 10px;
+    }
+  }
+  
+  div > ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #850909;
+    }
+    
+    ul > li {
+      float: left;
+    }
+    
+    .icon {
+     float : left;
+      }
+    
+    ul > li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    ul > li a:hover {
+      background-color: #111;
+    }
+  
+    footer > ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #aa9494;
+    }
+    
+    ul > li {
+      float: left;
+    }
+    
+    .horizontal {
+     float : left;
+      }
+    
+    ul > li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    ul > li a:hover {
+      background-color: #111;
+    }
